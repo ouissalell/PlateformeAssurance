@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/beneficiaire/list.jsp" value="file://$PROJECT_DIR$/src/main/webapp/beneficiaire" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/cotisation/ajoutcotisation.jsp" value="file://$PROJECT_DIR$/src/main/webapp/cotisation" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/login.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/remboursement/ajoutremboursement.jsp" value="file://$PROJECT_DIR$/src/main/webapp/remboursement" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/remboursement/list.jsp" value="file://$PROJECT_DIR$/src/main/webapp/remboursement" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/remboursement/modifierremboursement.jsp" value="file://$PROJECT_DIR$/src/main/webapp/remboursement" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/user/cotisations.jsp" value="file://$PROJECT_DIR$/src/main/webapp/user" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/user/home.jsp" value="file://$PROJECT_DIR$/src/main/webapp/user" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/user/remboursements.jsp" value="file://$PROJECT_DIR$/src/main/webapp/user" />
+      </map>
+    </option>
+  </component>
+</project>

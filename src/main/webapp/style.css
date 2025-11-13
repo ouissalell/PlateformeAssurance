@@ -1,0 +1,250 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centrage horizontal pour tous les enfants */
+}
+
+h2, .ajouter-lien, table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* ===========================
+   BOUTON "AJOUTER UN BENEFICIAIRE"
+=========================== */
+.ajouter-lien {
+    background-color: #28a745;
+    color: #fff !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: background 0.3s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.ajouter-lien i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.ajouter-lien:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   TABLEAU
+=========================== */
+
+table {
+    width: auto;
+    max-width: 900px; /* limite la largeur */
+    margin: 20px auto; /* centre horizontalement */
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+th {
+    background-color: #28a745;
+    color: white;
+    text-align: left;
+    padding: 14px;
+    font-size: 15px;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 14px;
+    color: #343a40;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===========================
+   ACTIONS (MODIFIER / SUPPRIMER)
+=========================== */
+.actions {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.action-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 3px;
+    transition: opacity 0.3s;
+}
+
+.action-btn.edit {
+    background-color: #007bff;
+}
+
+.action-btn.delete {
+    background-color: #dc3545;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+
+/* ===========================
+   ANCIEN STYLE (COMPATIBILITÉ)
+=========================== */
+a.action {
+    text-decoration: none;
+    color: blue;
+}
+
+a.action:visited {
+    color: purple;
+}
+
+a.action i {
+    margin-right: 5px;
+}
+
+/* ===========================
+   MESSAGES & ÉTATS
+=========================== */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+}
+
+.message {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.message.success {
+    color: #28a745;
+}
+
+.message.error {
+    color: #dc3545;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #343a40;
+}
+form {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+
+.form-group {
+    position: relative;
+    margin-top: 20px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px 35px 10px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+.form-group input:focus {
+    border-color: #28a745;
+    outline: none;
+}
+.form-group i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+input[type="submit"] {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+p.message {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+p.message.error { color: #dc3545; }
+p.message.success { color: #28a745; }
+p a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
