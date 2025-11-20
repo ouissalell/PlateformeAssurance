@@ -39,6 +39,8 @@
     <a href="beneficiaire"><i class="fa fa-users"></i> Bénéficiaires</a>
     <a href="cotisation"><i class="fa fa-money-bill"></i> Cotisations</a>
     <a href="remboursement"><i class="fa fa-file-invoice-dollar"></i> Remboursements</a>
+    <a href="associerUser"><i class="fa fa-user-plus"></i> Associer compte User</a>
+
 </div>
 
 <!-- Zone de contenu -->
@@ -47,11 +49,13 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>Bienvenue sur la Plateforme Assurance</h1>
         <!-- Bouton Logout -->
-        <a href="login.jsp" class="btn btn-danger">Logout</a>
+        <a href="login.jsp" class="btn btn-danger">Se déconnecter</a>
     </div>
 
     <p>Utilisez le menu à gauche pour naviguer vers les différentes fonctionnalités.</p>
 </div>
+
+
 
 
 

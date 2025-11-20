@@ -17,7 +17,7 @@ public class Beneficiaire {
     @Column(nullable = false)
     private String prenom;
 
-    @Column(name = "date_naissance") // si ta colonne s’appelle date_naissance
+    @Column(name = "date_naissance")
     private String dateNaissance;
 
     // 🔥 Correction importante ici :
